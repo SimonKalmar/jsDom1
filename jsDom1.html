@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Test Forms</title>
+        <meta charset='utf-8'/>
+        <link rel='stylesheet' href='style.css'/>
+        <script src='jsDom1.js'></script>
+    </head>
+    <body>
+
+      <form method="post" id="minForm">
+
+        <label for="text">Skriv dit fornavn</label>
+        <br/>
+        <input id="name" name="username" type="text" placeholder='fornavn' pattern=".{2,}"  required title="2 characters minimum"/><br/>
+        <input id="date" name="date" type="date" required/><br/>
+        <input type="submit" id="minsubmit" value="Indsend" />
+      </form>
+
+    </body>
+</html>
